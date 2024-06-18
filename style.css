@@ -188,11 +188,11 @@ button {
   }
   #array {
 
-    left:-20px;
+    left:-36px;
     /* padding: 0; */
     width: 340px;
     /* transform: scale(35%); */
-    transform: scalex(45%) scaleY(55%);
+    transform: scalex(40%) scaleY(60%);
   }
   .arrayWrapper{
     justify-content: left;
@@ -217,10 +217,7 @@ button {
     font-size: small;
     transform:scaleY(70%) ;
   }
-  .compTable {
-    width:100%;
-    /* transform: scale(55%); */
-  }
+  
   .header {
     font-weight: bold;
     padding-top: 15px;
