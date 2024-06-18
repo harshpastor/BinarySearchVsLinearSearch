@@ -42,8 +42,8 @@ bs.addEventListener("click",
 		let value=arr[i]
 		let valueOfArray = document.createElement("div");
         valueOfArray.classList.add("block");
-        valueOfArray.style.height = `${value * 3}px`;
-        valueOfArray.style.transform = `translate(${i * 30}px)`;
+        valueOfArray.style.height = `${value * 3.5}px`;
+        valueOfArray.style.transform = `translate(${i * 35}px)`;
 
         let arrayLabel = document.createElement("label");
         arrayLabel.classList.add("block_id");
@@ -79,10 +79,11 @@ async function BinarySearch(delay = 1000) {
 
     while (start <= end) {
 		count++;
+        // updateColors(blocks, "#bfb716");
         updateColors(blocks, "#6b5b95");
 
         let mid = Math.floor((start + end) / 2);
-        blocks[mid].style.backgroundColor = "#FF4949";
+        blocks[mid].style.backgroundColor = "#bfb716";
 
         await new Promise((resolve) =>
             setTimeout(() => {
@@ -129,7 +130,7 @@ async function LinearSearch(delay = 1000) {
     for (let i = 0; i < blocks.length; i++) {
         updateColors(blocks, "#6b5b95");
 
-        blocks[i].style.backgroundColor = "#FF4949";
+        blocks[i].style.backgroundColor = "#bfb716";
 		wt+=delay
         await new Promise((resolve) =>
             setTimeout(() => {
