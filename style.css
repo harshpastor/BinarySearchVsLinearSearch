@@ -199,9 +199,11 @@ button {
     text-align: left;
     padding-left: 0;
     padding-top:40px;
+    padding-bottom:60px;
     width: 340px;
   }
   .btns{
+    margin-top:28px;
     padding-bottom:100px ;
     margin: auto;
     justify-content: center;
@@ -220,6 +222,7 @@ button {
     font-weight: bold;
     padding-top: 40px;
     font-size: xx-large;
+    padding-bottom:32px;
   }
   #text{
     color: #9c93b4;
