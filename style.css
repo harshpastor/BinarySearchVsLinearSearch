@@ -188,19 +188,22 @@ button {
   }
   #array {
 
-    left:-62px;
+    left:-20px;
     /* padding: 0; */
     width: 340px;
     /* transform: scale(35%); */
-    transform: scalex(35%) scaleY(70%);
+    transform: scalex(45%) scaleY(55%);
   }
   .arrayWrapper{
     justify-content: left;
     text-align: left;
     padding-left: 0;
-    padding-top:40px;
-    padding-bottom:60px;
+    padding-top:20px;
+    padding-bottom:30px;
     width: 340px;
+  }
+  #fname{
+    height:150%;
   }
   .btns{
     margin-top:28px;
@@ -220,9 +223,9 @@ button {
   }
   .header {
     font-weight: bold;
-    padding-top: 40px;
+    padding-top: 15px;
     font-size: xx-large;
-    padding-bottom:32px;
+    padding-bottom:20px;
   }
   #text{
     color: #9c93b4;
