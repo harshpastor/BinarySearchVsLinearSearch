@@ -11,7 +11,9 @@ html {
   background-color: #212121;
   color: whitesmoke;
 }
-
+.parentContainer{
+  backdrop-filter: blur(20px);
+}
 #array {
   scale:110%;   
   background-color: invisible;

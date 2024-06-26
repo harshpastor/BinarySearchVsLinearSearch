@@ -62,7 +62,7 @@ bs.addEventListener("click",
     
 
 let present=0
-async function BinarySearch(delay = 1000) {
+async function BinarySearch(delay = 600) {
     present=0;
     console.log('bs executing')
 	let num = Number(document.getElementById("fname").value);
@@ -113,7 +113,7 @@ async function BinarySearch(delay = 1000) {
 	
 }
 let wt=0
-async function LinearSearch(delay = 1000) {
+async function LinearSearch(delay = 400) {
     present=0;
     console.log('ls executing')
     let blocks = document.querySelectorAll(".block");
@@ -177,7 +177,7 @@ async function CompareSearch(delay=500){
             resolve();
         }, delay)
     );
-    let bs=await BinarySearch();
+    let bs=BinarySearch();
     updateTable(ls,bs,s);    
 	
 }
